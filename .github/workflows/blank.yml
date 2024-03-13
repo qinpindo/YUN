@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      # 使用 node:10
+      # 使用 3 node:10
       - name: use Node.js 10.x
         uses: actions/setup-node@v1
         with:
